@@ -8,6 +8,7 @@ import Banner from "./indexparts/Banner";
 import What from "./indexparts/What";
 import Grow from "./indexparts/Grow";
 import Services from "./indexparts/Services";
+import Gapcrud from "./indexparts/Gapcrud";
 
 import Footer from "./common/Footer";
 
@@ -18,6 +19,7 @@ export default function Home() {
       <Banner/>
       <What/>
       <Grow/>
+      <Gapcrud/>
       <Services/>
       <Footer/>
     </React.Fragment>

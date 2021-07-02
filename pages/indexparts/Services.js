@@ -39,48 +39,11 @@ const Services = () => {
                         <div className="col-lg-8">
                         <ul className="nacc">
                             <li className="active">
-                            <div>
-                                <div className="thumb">
-                                <iframe width="100%" height="auto" src="https://www.youtube.com/embed/JynGuQx4a1Y" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
-                                <div className="overlay-effect">
-                                    <a href="#"><h4>Project One</h4></a>
-                                    <span>SEO &amp; Marketing</span>
+                                <div>
+                                    <div className="thumb">
+
+                                    </div>
                                 </div>
-                                </div>
-                            </div>
-                            </li>
-                            <li>
-                            <div>
-                                <div className="thumb">
-                                <iframe width="100%" height="auto" src="https://www.youtube.com/embed/RdJBSFpcO4M" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
-                                <div className="overlay-effect">
-                                    <a href="#"><h4>Second Project</h4></a>
-                                    <span>Advertising &amp; Marketing</span>
-                                </div>
-                                </div>
-                            </div>
-                            </li>
-                            <li>
-                            <div>
-                                <div className="thumb">
-                                <iframe width="100%" height="auto" src="https://www.youtube.com/embed/ZlfAjbQiL78" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
-                                <div className="overlay-effect">
-                                    <a href="#"><h4>Project Three</h4></a>
-                                    <span>Digital &amp; Marketing</span>
-                                </div>
-                                </div>
-                            </div>
-                            </li>
-                            <li>
-                            <div>
-                                <div className="thumb">
-                                <iframe width="100%" height="auto" src="https://www.youtube.com/embed/mx1WseE7-0Y" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
-                                <div className="overlay-effect">
-                                    <a href="#"><h4>Fourth Project</h4></a>
-                                    <span>SEO &amp; Advertising</span>
-                                </div>
-                                </div>
-                            </div>
                             </li>
                         </ul>
                         </div>

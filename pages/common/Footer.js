@@ -20,38 +20,38 @@ const Footer = () => {
                             <div className="about footer-item">
                                 <div className="logo">
                                     <div>
-                                        <a href="#"><Image width={190} height={60} layout="responsive" src="/assets/images/logo.png" alt="Onix Digital TemplateMo"/></a>
+                                        <a><Image width={290} height={90} layout="responsive" src="/assets/images/logow.png" alt="Onix Digital TemplateMo"/></a>
                                     </div>
                                 </div>
-                                <a href="#">info@company.com</a>
+                                <Link href="#"><a>info@company.com</a></Link>
                                 <ul>
-                                {/* <li><a href="#"><i className="fa fa-facebook"></i></a></li>
-                                <li><a href="#"><i className="fa fa-twitter"></i></a></li>
-                                <li><a href="#"><i className="fa fa-behance"></i></a></li>
-                                <li><a href="#"><i className="fa fa-instagram"></i></a></li> */}
+                                    <li><Link href="#"><a><i className="fa fa-facebook"></i></a></Link></li>
+                                    <li><Link href="#"><a><i className="fa fa-twitter"></i></a></Link></li>
+                                    <li><Link href="#"><a><i className="fa fa-behance"></i></a></Link></li>
+                                    <li><Link href="#"><a><i className="fa fa-instagram"></i></a></Link></li>
                                 </ul>
                             </div>
                         </div>
 
                         <div className="col-lg-3">
                             <div className="services footer-item">
-                                <h4>Services</h4>
-                                <ul>
-                                {/* <li><a href="#">SEO Development</a></li>
-                                <li><a href="#">Business Growth</a></li>
-                                <li><a href="#">Social Media Managment</a></li>
-                                <li><a href="#">Website Optimization</a></li> */}
+                                <h4>About Us</h4>
+                                <ul>                                 
+                                    <li><Link href="#"><a>Company</a></Link></li>
+                                    <li><Link href="#"><a>Career</a></Link></li>
+                                    <li><Link href="#"><a>News</a></Link></li>
+                                    <li><Link href="#"><a>Contact</a></Link></li>
                                 </ul>
                             </div>
                         </div>
                         <div className="col-lg-3">
                             <div className="community footer-item">
-                                <h4>Community</h4>
+                                <h4>Related</h4>
                                 <ul>
-                                {/* <li><a href="#">Digital Marketing</a></li>
-                                <li><a href="#">Business Ideas</a></li>
-                                <li><a href="#">Website Checkup</a></li>
-                                <li><a href="#">Page Speed Test</a></li> */}
+                                    <li><Link href="#"><a>Discalimer</a></Link></li>
+                                    <li><Link href="#"><a>Privacy Policy</a></Link></li>
+                                    <li><Link href="#"><a>Terms of Service</a></Link></li>
+                                    <li><Link href="#"><a>Support</a></Link></li>
                                 </ul>
                             </div>
                         </div>
@@ -69,7 +69,7 @@ const Footer = () => {
 
                         <div className="col-lg-12">
                         <div className="copyright">
-                            <p>Copyright © 2021 CapsulrLabs., Ltd. All Rights Reserved.</p>
+                            <p>Copyright © 2021 capsuleLabs.in. All Rights Reserved.</p>
                         </div>
                         </div>
 
