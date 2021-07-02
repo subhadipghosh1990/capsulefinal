@@ -9,6 +9,8 @@ import What from "./indexparts/What";
 import Grow from "./indexparts/Grow";
 import Services from "./indexparts/Services";
 
+import Footer from "./common/Footer";
+
 export default function Home() {
   return (
     <React.Fragment>
@@ -17,6 +19,7 @@ export default function Home() {
       <What/>
       <Grow/>
       <Services/>
+      <Footer/>
     </React.Fragment>
       
   )
