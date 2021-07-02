@@ -9,6 +9,7 @@ import What from "./indexparts/What";
 import Grow from "./indexparts/Grow";
 import Services from "./indexparts/Services";
 import Gapcrud from "./indexparts/Gapcrud";
+import Role from "./indexparts/Role";
 
 import Footer from "./common/Footer";
 
@@ -19,6 +20,7 @@ export default function Home() {
       <Banner/>
       <What/>
       <Grow/>
+      <Role/>
       <Gapcrud/>
       <Services/>
       <Footer/>

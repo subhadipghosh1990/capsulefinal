@@ -58,9 +58,9 @@ const Grow = () => {
                             <div className="icon">
                             <Image width={45} height={45} src="/assets/images/service-icon-04.png" alt=""/>
                             </div>
-                            <div className="count-digit">03</div>
-                            <div className="count-title">Project-centric</div>
-                            <p>Develop personal insights into projects or align project with identified skill gap.</p>
+                            <div className="count-digit">04</div>
+                            <div className="count-title">Credibility</div>
+                            <p>Through transparent provenance of project processes and outcome.</p>
                         </div>
                         </div>
                     </div>
