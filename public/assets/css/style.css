@@ -2134,7 +2134,7 @@ responsive
 }
 
   .main-banner .item .down-buttons {
-    display: inline-block;
+    /* display: inline-block; */
   }
   .main-banner .item .down-buttons .main-blue-button {
     margin-right: 0px;
@@ -2271,8 +2271,32 @@ responsive
   padding-bottom: 10px;
 }
 
+.slick-next{
+  right: 0px;
+}
+
+.slick-prev {
+  left: 0px;
+}
+
 @media(max-width:767px){
   .dualList{
     column-count: 1;
   }
+
+  .down-buttons .main-blue-button-hover{
+    margin-bottom: 10px;
+    margin-right: 10px;
+  }
+
+  
+}
+
+
+@media(max-width:380px){
+
+  .main-banner .item .down-buttons{
+    display: block;
+  }
+
 }

@@ -43,7 +43,7 @@ const Services = () => {
                 <div className="naccs">
                     <div className="grid">
                     <div className="row">
-                        <div className="col-lg-8">
+                        <div className="col-lg-8 mb-5">
 
                             <div className="courseWrapper">
 
