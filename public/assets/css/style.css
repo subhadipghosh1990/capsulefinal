@@ -298,9 +298,9 @@ body {
   background-color: #ff695f;
   font-size: 15px;
   font-weight: 400;
-  color: #fff;
+  color: #fff !important;
   text-transform: capitalize;
-  padding: 12px 25px;
+  padding: 0px 25px;
   border-radius: 23px;
   letter-spacing: 0.25px;
   -webkit-transition: all .3s;
@@ -416,7 +416,7 @@ padding: 10px 0px;
 
 .header-area .main-nav .nav li:last-child {
   padding-right: 0px;
-  padding-left: 40px;
+  padding-left: 0px;
 }
 
 /* .header-area .main-nav .nav li:last-child a ,
