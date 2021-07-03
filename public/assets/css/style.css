@@ -1896,7 +1896,7 @@ Footer Style
 
 .footer-dec {
   width: 100%;
-  margin-top: 160px;
+  margin-top: 60px;
 }
 
 footer {
@@ -2248,4 +2248,31 @@ responsive
   bottom: 0px;
   width: 600px;
   height: 260px;
+}
+
+
+.courseWrapper{
+  max-height: 600px;
+  overflow: auto;
+}
+
+.naccs p{
+  font-size: 14px;
+  line-height: 26px;
+  margin-bottom: 20px;
+}
+
+
+.dualList{
+  column-count: 2;
+}
+
+.dualList li{
+  padding-bottom: 10px;
+}
+
+@media(max-width:767px){
+  .dualList{
+    column-count: 1;
+  }
 }
